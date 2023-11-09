@@ -21,33 +21,32 @@ Here is an example usage of the ansicolor library:
 #include "ansicolor.h"
 
 int main() {
-
-// Print text in different colors
-red();
-printf("This is red text\n");
-
-black();
-printf("This is black text\n");
-
-green();
-printf("This is green text\n");
-
-// Reset to default color
-default_color();
-
-// Print bold text
-printf(BOLD_RED "This is bold red text\n");
-
-// Underline cyan text
-printf(UNDERLINE_CYAN "This is underlined cyan text\n");
-
-// High intensity purple background
-printf(HIGH_INTENSTY_BACKGROUND_PURPLE "High intensity purple background\n");
-
-// Bold high intensity blue text
-printf(BOLD_HIGH_INTENSITY_TEXT_BLUE "Bold high intensity blue text\n");
-
-return 0;
+   // Print text in different colors
+   red();
+   printf("This is red text\n");
+   
+   black();
+   printf("This is black text\n");
+   
+   green();
+   printf("This is green text\n");
+   
+   // Reset to default color
+   default_color();
+   
+   // Print bold text
+   printf(BOLD_RED "This is bold red text\n");
+   
+   // Underline cyan text
+   printf(UNDERLINE_CYAN "This is underlined cyan text\n");
+   
+   // High intensity purple background
+   printf(HIGH_INTENSTY_BACKGROUND_PURPLE "High intensity purple background\n");
+   
+   // Bold high intensity blue text
+   printf(BOLD_HIGH_INTENSITY_TEXT_BLUE "Bold high intensity blue text\n");
+   
+   return 0;
 }
 ```
 
